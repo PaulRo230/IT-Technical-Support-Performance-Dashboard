@@ -73,7 +73,7 @@ screenshots/             # Dashboard screenshots for documentation
 requirements.txt         # Python dependencies
 README.md                # Project overview and instructions
 Final_Report_Paul_Irigi.docx  # Final project documentation
-
+```
 ---
 
 ## Author
