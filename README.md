@@ -57,15 +57,26 @@ This project visualizes operational ticket data (from `Bogdan.xlsx`) and provide
 ---
 
 ## Project Structure
-app.py                  # Main Dash app
-codes/                  # Callbacks, layouts, charts, data loader
-assets/                 # CSS styling
-data/                   # Dataset (Bogdan.xlsx)
-screenshots/            # Dashboard screenshots for documentation
+
+```text
+app.py                  # Main Dash application entry point
+codes/                  # Modular application logic
+│   ├── callbacks/       # Dash callbacks for interactivity
+│   ├── charts/          # Plotly chart definitions
+│   ├── layouts/         # Page layouts and UI components
+│   ├── data_loader.py   # Data loading and preprocessing
+│   ├── kpis.py          # KPI calculation logic
+│   └── config.py        # Styling and configuration constants
+assets/                 # CSS styling for the dashboard
+data/                   # Dataset and data manipulation scripts
+screenshots/             # Dashboard screenshots for documentation
+requirements.txt         # Python dependencies
+README.md                # Project overview and instructions
+Final_Report_Paul_Irigi.docx  # Final project documentation
 
 ---
 
 ## Author
-**Paul Mathews Irigi**
-Purdue University Northwest
-ITS 46600 – Data Visualization Technology
+**Paul Mathews Irigi**  
+Purdue University Northwest  
+ITS 46600 – Data Visualization Technology  
